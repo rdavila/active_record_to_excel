@@ -17,10 +17,15 @@ Jeweler::Tasks.new do |gem|
   gem.name = "active_record_to_excel"
   gem.homepage = "http://github.com/rdavila/active_record_to_excel"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Excel generator based on ActiveRecord queries}
+  gem.description = %Q{
+    This tool allows you to generate quick and simple
+    Excel reports based on the array of records returned by your 
+    ActiveRecord queries
+  }
   gem.email = "ruben.grunge84@gmail.com"
   gem.authors = ["Rubén Dávila Santos"]
+  gem.version = ActiveRecordToExcel::Version::STRING
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
