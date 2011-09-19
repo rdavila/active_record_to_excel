@@ -11,13 +11,13 @@ reports based on the results returned from your ActiveRecord queries.
     
 ### Generating reports:
 
-You can select a single value...
-
 ```ruby
 User.all.to_excel({ :name => 'Name', :email => 'Email' })
 ```
 
-That line of code creates a report.xls on the public folder of your rails app with the report.
+That line of code creates a report.xls on the public folder of your rails app with the report. 
+The keys on the hash are methods of you ActiveRecord object that returns the value required, the values 
+are the labels of the columns on the Excel sheet.
 
 You can pass optionally two arguments: **:filename** and **:path**
 
