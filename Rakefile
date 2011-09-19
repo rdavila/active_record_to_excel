@@ -2,6 +2,8 @@
 
 require 'rubygems'
 require 'bundler'
+require File.expand_path('../lib/active_record_to_excel/version', __FILE__)
+
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -26,6 +28,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "ruben.grunge84@gmail.com"
   gem.authors = ["Rubén Dávila Santos"]
   gem.version = ActiveRecordToExcel::Version::STRING
+  gem.add_dependency 'spreadsheet', '= 0.6.5.8'
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

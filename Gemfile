@@ -5,6 +5,9 @@ source "http://rubygems.org"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
+
+gem 'spreadsheet', '= 0.6.5.8'
+
 group :development do
   gem "rspec", "~> 2.3.0"
   gem "rails", "~> 3.0.10"
@@ -15,4 +18,6 @@ group :development do
   gem "rcov", ">= 0"
   gem "autotest-fsevent"
   gem "autotest-growl"
+  gem "ruby-debug"
+  gem "spreadsheet", "0.6.5.8"
 end
