@@ -4,21 +4,17 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{active_record_to_excel}
+  s.name = "active_record_to_excel"
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rub\303\251n D\303\241vila Santos"]
-  s.date = %q{2011-09-04}
-  s.description = %q{
-    This tool allows you to generate quick and simple
-    Excel reports based on the array of records returned by your 
-    ActiveRecord queries
-  }
-  s.email = %q{ruben.grunge84@gmail.com}
+  s.date = "2011-09-20"
+  s.description = "\n    This tool allows you to generate quick and simple\n    Excel reports based on the array of records returned by your \n    ActiveRecord queries\n  "
+  s.email = "ruben.grunge84@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".autotest",
@@ -28,8 +24,9 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
+    "active_record_to_excel.gemspec",
     "lib/active_record_to_excel.rb",
     "lib/active_record_to_excel/version.rb",
     "spec/active_record_to_excel_spec.rb",
@@ -76,11 +73,11 @@ Gem::Specification.new do |s|
     "spec/dummy/script/rails",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/rdavila/active_record_to_excel}
+  s.homepage = "http://github.com/rdavila/active_record_to_excel"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.4.2}
-  s.summary = %q{Excel generator based on ActiveRecord queries}
+  s.rubygems_version = "1.8.10"
+  s.summary = "Excel generator based on ActiveRecord queries"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
