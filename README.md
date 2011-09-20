@@ -1,6 +1,6 @@
 # active_record_to_excel
 
-active_record_to_excel is a litle tool for generate quick and dirty 
+active_record_to_excel is a litle tool for generate simple MS Excel 
 reports based on the results returned from your ActiveRecord queries.
 
 ## Usage
@@ -15,7 +15,8 @@ reports based on the results returned from your ActiveRecord queries.
 User.all.to_excel({ :name => 'Name', :email => 'Email' })
 ```
 
-That line of code creates a report.xls on the public folder of your rails app with the report. 
+That line of code creates a report.xls file under the public folder of your rails app.
+
 The keys on the hash are methods of you ActiveRecord object that returns the value required, the values 
 are the labels of the columns on the Excel sheet.
 
