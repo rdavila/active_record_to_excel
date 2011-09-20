@@ -30,8 +30,4 @@ It will create a **users.xls** file in your $HOME/reports directory.
 
 ## Copyleft
 
-Copyleft
-<span style="-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)
-;filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);">
-    &copy;
-</span> 2011 [Rubén Dávila](http://rubenonrails.com)
+Copyleft (ɔ) 2011 [Rubén Dávila](http://rubenonrails.com)
