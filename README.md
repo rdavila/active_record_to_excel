@@ -28,7 +28,10 @@ User.all.to_excel({ :name => 'Name', :email => 'Email', :path => '~/reports', :f
 
 It will create a **users.xls** file in your $HOME/reports directory.
 
-## Copyright
+## Copyleft
 
-Copyright &copy; 2011 [Rubén Dávila](http://rubenonrails.com)
-
+Copyleft
+<span style="-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)
+;filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);">
+    &copy;
+</span> 2011 [Rubén Dávila](http://rubenonrails.com)
